@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-python-argo-cd-app-deployment
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: my-python-argo-cd-app                 # Deployment 使用此标签选择其 Pod
